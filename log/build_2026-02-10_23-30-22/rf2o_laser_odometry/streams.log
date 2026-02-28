@@ -1,0 +1,74 @@
+[0.018s] Invoking command in '/home/ubuntu22/lidar_slam_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu22/lidar_slam_ws/src/rf2o_laser_odometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu22/lidar_slam_ws/install/rf2o_laser_odometry
+[0.183s] -- The C compiler identification is GNU 11.4.0
+[0.650s] -- The CXX compiler identification is GNU 11.4.0
+[1.003s] -- Detecting C compiler ABI info
+[1.130s] -- Detecting C compiler ABI info - done
+[1.138s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.138s] -- Detecting C compile features
+[1.139s] -- Detecting C compile features - done
+[1.142s] -- Detecting CXX compiler ABI info
+[1.279s] -- Detecting CXX compiler ABI info - done
+[1.288s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.289s] -- Detecting CXX compile features
+[1.289s] -- Detecting CXX compile features - done
+[1.292s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.466s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.541s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.566s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[1.779s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.783s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.793s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.807s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.824s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.873s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.876s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.952s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.193s] -- Found FastRTPS: /opt/ros/humble/include  
+[11.150s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.159s] -- Looking for pthread.h
+[11.371s] -- Looking for pthread.h - found
+[11.372s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.574s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.575s] -- Found Threads: TRUE  
+[11.649s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[11.670s] -- Found tf2_geometry_msgs: 0.25.17 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[11.760s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[11.761s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[11.762s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[11.875s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[11.896s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[11.921s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[12.008s] -- Configuring done
+[12.029s] -- Generating done
+[12.036s] -- Build files have been written to: /home/ubuntu22/lidar_slam_ws/build/rf2o_laser_odometry
+[12.050s] Invoked command in '/home/ubuntu22/lidar_slam_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ubuntu22/lidar_slam_ws/src/rf2o_laser_odometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu22/lidar_slam_ws/install/rf2o_laser_odometry
+[12.053s] Invoking command in '/home/ubuntu22/lidar_slam_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu22/lidar_slam_ws/build/rf2o_laser_odometry -- -j16 -l16
+[12.115s] [ 20%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o[0m
+[12.118s] [ 40%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2D.cpp.o[0m
+[12.119s] [ 60%] [32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode.cpp.o[0m
+[37.966s] [ 80%] [32m[1mLinking CXX static library librf2o_laser_odometry.a[0m
+[37.985s] [100%] [32m[1mLinking CXX executable rf2o_laser_odometry_node[0m
+[38.184s] [100%] Built target rf2o_laser_odometry
+[39.373s] [100%] Built target rf2o_laser_odometry_node
+[39.389s] Invoked command in '/home/ubuntu22/lidar_slam_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu22/lidar_slam_ws/build/rf2o_laser_odometry -- -j16 -l16
+[39.392s] Invoking command in '/home/ubuntu22/lidar_slam_ws/build/rf2o_laser_odometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu22/lidar_slam_ws/build/rf2o_laser_odometry
+[39.401s] -- Install configuration: ""
+[39.402s] -- Execute custom install script
+[39.403s] -- Symlinking: /home/ubuntu22/lidar_slam_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node
+[39.416s] -- Symlinking: /home/ubuntu22/lidar_slam_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py
+[39.426s] -- Symlinking: /home/ubuntu22/lidar_slam_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry
+[39.436s] -- Symlinking: /home/ubuntu22/lidar_slam_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry
+[39.445s] -- Symlinking: /home/ubuntu22/lidar_slam_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh
+[39.455s] -- Symlinking: /home/ubuntu22/lidar_slam_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv
+[39.467s] -- Symlinking: /home/ubuntu22/lidar_slam_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh
+[39.476s] -- Symlinking: /home/ubuntu22/lidar_slam_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv
+[39.487s] -- Symlinking: /home/ubuntu22/lidar_slam_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash
+[39.497s] -- Symlinking: /home/ubuntu22/lidar_slam_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh
+[39.506s] -- Symlinking: /home/ubuntu22/lidar_slam_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh
+[39.516s] -- Symlinking: /home/ubuntu22/lidar_slam_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv
+[39.525s] -- Symlinking: /home/ubuntu22/lidar_slam_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv
+[39.535s] -- Symlinking: /home/ubuntu22/lidar_slam_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry
+[39.546s] -- Symlinking: /home/ubuntu22/lidar_slam_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake
+[39.556s] -- Symlinking: /home/ubuntu22/lidar_slam_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake
+[39.565s] -- Symlinking: /home/ubuntu22/lidar_slam_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml
+[39.579s] Invoked command in '/home/ubuntu22/lidar_slam_ws/build/rf2o_laser_odometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu22/lidar_slam_ws/build/rf2o_laser_odometry

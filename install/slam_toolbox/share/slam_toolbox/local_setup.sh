@@ -1,0 +1,1 @@
+/home/ubuntu22/lidar_slam_ws/build/slam_toolbox/ament_cmake_environment_hooks/local_setup.sh

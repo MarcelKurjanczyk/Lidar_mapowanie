@@ -1,0 +1,15 @@
+{
+  "package_name": "slam_toolbox",
+  "non_idl_tuples": [
+    "/home/ubuntu22/lidar_slam_ws/src/slam_toolbox:srv/Pause.srv",
+    "/home/ubuntu22/lidar_slam_ws/src/slam_toolbox:srv/ClearQueue.srv",
+    "/home/ubuntu22/lidar_slam_ws/src/slam_toolbox:srv/ToggleInteractive.srv",
+    "/home/ubuntu22/lidar_slam_ws/src/slam_toolbox:srv/Clear.srv",
+    "/home/ubuntu22/lidar_slam_ws/src/slam_toolbox:srv/SaveMap.srv",
+    "/home/ubuntu22/lidar_slam_ws/src/slam_toolbox:srv/LoopClosure.srv",
+    "/home/ubuntu22/lidar_slam_ws/src/slam_toolbox:srv/MergeMaps.srv",
+    "/home/ubuntu22/lidar_slam_ws/src/slam_toolbox:srv/AddSubmap.srv",
+    "/home/ubuntu22/lidar_slam_ws/src/slam_toolbox:srv/DeserializePoseGraph.srv",
+    "/home/ubuntu22/lidar_slam_ws/src/slam_toolbox:srv/SerializePoseGraph.srv"
+  ]
+}
