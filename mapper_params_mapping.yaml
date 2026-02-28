@@ -17,6 +17,8 @@ slam_toolbox:
     use_map_saver: true
     mode: mapping  
 
+    start_at_dock: true
+
     debug_logging: false
     throttle_scans: 1
     transform_publish_period: 0.05
@@ -28,12 +30,12 @@ slam_toolbox:
     transform_timeout: 5.0
     tf_buffer_duration: 30.
     stack_size_to_use: 40000000
-    enable_interactive_mode: true # Musi być true do edycji
+    enable_interactive_mode: true 
 
     # General Parameters
     use_scan_matching: true
     use_scan_barycenter: true
-    minimum_travel_distance: 0.0 # Mapowanie w miejscu
+    minimum_travel_distance: 0.0 # Mapowanie w miejscu zmienić na 0.0, a podczas lokalizacji na 0.2
     minimum_travel_heading: 0.0
     
     scan_buffer_size: 10
